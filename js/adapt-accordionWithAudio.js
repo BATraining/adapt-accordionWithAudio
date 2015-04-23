@@ -141,7 +141,7 @@ define(function(require) {
 
         },
 
-        playAudioAtIndex: function (audioObject) {
+        playAudioAtIndex: function (audioObjectIndex) {
             var item = (audioObjectIndex >= 0) ? this.model.get("_items")[audioObjectIndex] : null;
             var audioObject = item ? item.audioObject : null;
 

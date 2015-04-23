@@ -1,0 +1,15 @@
+{
+  "name": "adapt-accordionWithAudio",
+  "version": "1.0.0",
+  "description": "An accordion component that displays clickable titles, which reveal display text and play audio",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/BATraining/adapt-accordionWithAudio.git"
+  },
+  "author": "AdaptLearning",
+  "license": "GPL v3",
+  "bugs": {
+    "url": "https://github.com/BATraining/adapt-accordionWithAudio/issues"
+  }
+}

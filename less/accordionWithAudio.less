@@ -1,0 +1,110 @@
+.accordionWithAudio-component {
+
+    .accordionWithAudio-item {
+        margin-bottom:@item-spacing;
+    }
+
+    .accordionWithAudio-item-title-icon {
+        position:absolute;
+        top:50%;
+        left:@item-padding-left;
+        .dir-rtl & {
+            left:inherit;
+            right:@item-padding-left;
+        }
+        margin-top:-(@icon-size/2);
+        color:@item-text-color;
+    }
+
+    .icon{
+        color: #102a3e;
+    }
+
+
+    .accordionWithAudio-item-title {
+        display:block;
+        position:relative;
+        padding:@item-padding;
+        padding-left:(@icon-size+(@item-padding-left*2));
+        .dir-rtl & {
+            padding-left:inherit;
+            padding-right:(@icon-size+(@item-padding-left*2));
+        }
+        color:@item-text-color;
+        background-color:@item-color;
+        text-decoration:none;
+        border:@item-border;
+
+        &.visited {
+            color:@item-text-visited-color;
+            background-color:@item-visited-color;
+            border-color:@item-border-visited-color;
+
+            .accordionWithAudio-item-title-icon {
+                color:@item-text-visited-color;
+            }
+        }
+
+        &.selected {
+            color:@item-text-visited-color;
+            background-color:@item-visited-color;
+            border-color:@item-border-selected-color;
+
+            .accordionWithAudio-item-title-icon {
+                color:@item-text-visited-color;
+            }
+        }
+        .no-touch & {
+            &:hover {
+                color:@item-text-hover-color;
+                background-color:@item-hover-color;
+                border-color:@item-border-hover-color;
+
+                .accordionWithAudio-item-title-icon {
+                    color:@item-text-hover-color;
+                }
+            }
+            &.visited:hover {
+                color:@item-text-visited-color;
+                background-color:@item-visited-color;
+                border-color:@item-border-visited-color;
+
+                .accordionWithAudio-item-title-icon {
+                    color:@item-text-visited-color;
+                }
+            }
+        }
+
+    }
+
+    .accordionWithAudio-item-body {
+
+        background-color:@background-color;
+        display:none;
+        //border-right:@item-border;
+        //border-left:@item-border;
+        //border-bottom:@item-border;
+    }
+
+    .accordionWithAudio-item-body-inner {
+        padding:@item-padding;
+    }
+
+    .accordionWithAudio-audio {
+        color: @item-text-color;
+        position: absolute;
+        right: (@item-padding-right * 4);
+        .dir-rtl & {
+            right: inherit;
+            left: (@item-padding-right * 4);
+        }
+
+        .accordionWithAudio-sound{
+            position: absolute;
+            top: -27px;
+            right: 20px;
+            color: #102a3e;
+        }
+    }
+
+}

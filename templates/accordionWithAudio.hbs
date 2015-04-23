@@ -1,0 +1,36 @@
+<div class="accordionWithAudio-inner component-inner" role="region" aria-label="{{_globals._components._accordionWithAudio.ariaRegion}}">
+    {{> component this}}
+    <div class="accordionWithAudio-widget component-widget">
+        {{#each _items}}
+        <div class="accordionWithAudio-item">
+
+            <a href="#" role="button" class="accordionWithAudio-item-title {{#if _isVisited}}visited{{/if}}" aria-expanded="false" aria-label="{{{title}}}">
+                <div class="accordionWithAudio-item-title-inner">
+                    <div class="accordionWithAudio-item-title-icon icon icon-plus h5"></div>
+                    {{{title}}}
+                </div>
+
+            </a>
+
+            <a href="#" class="accordionWithAudio-audio">
+                <div class="accordionWithAudio-sound component-item-text-color icon"></div>
+            </a>
+
+            <div class="accordionWithAudio-item-body">
+                <div class="accordionWithAudio-item-body-inner">
+                    {{{a11y_text body}}}
+                </div>
+            </div>
+            {{#if audioSrc}}
+            <div class="accordionWithAudio-item-audio">
+                <audio preload="none">
+                    {{#each audioTypes}}
+                    <source src="{{../audioSrc}}.{{type}}" type="{{codec}}">
+                    {{/each}}
+                </audio>
+            </div>
+            {{/if}}
+        </div>
+        {{/each}}
+    </div>
+</div>

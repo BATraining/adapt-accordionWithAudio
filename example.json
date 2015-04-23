@@ -1,0 +1,89 @@
+{
+  "_id": "c-140",
+  "_parentId": "b-75",
+  "_type": "component",
+  "_component": "accordionWithAudio",
+  "_classes": "",
+  "_layout": "full",
+  "title": "accordionWithAudio",
+  "displayTitle": "accordionWithAudio",
+  "body": "Here are some reasons why we think scrolling is perfectly fine – and even desirable:",
+  "instruction": "Select the headings below to reveal the text.",
+  "_items": [
+    {
+      "alt": "Your learners already do it",
+      "title": "Your learners already do it",
+      "body": "Visit a website today and vertical scrolling will most likely factor into the overall design of the site.  Users understand what’s expected of them and are scrolling down the page to read content.  Feedback from our user trialling of scrolling page designs supports the assertion that users ‘get it’. Actually, they preferred this approach over more traditional template designs.<br><br>Surely we want to present learning that uses conventions our audience is most comfortable with?",
+      "audioSrc": "course/en/audio/tab1",
+      "audioTypes": [
+        {
+          "type": "mp3",
+          "codec": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "alt": "Device proof your learning",
+      "title": "Device proof your learning",
+      "body": "More and more learners are accessing content on a wide range of devices and each of these devices will display pages differently. The only thing you can guarantee is if you’re accessing content on a smartphone vertical scrolling will be required. Why not embrace this and place responsive design and vertical scrolling at the heart of your design?",
+      "audioSrc": "course/en/audio/tab2",
+      "audioTypes": [
+        {
+          "type": "mp3",
+          "codec": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "alt": "Meaningful navigation",
+      "title": "Meaningful navigation",
+      "body": "It's common sense to cluster any related content on a single page that’s either as short or as long as it needs to be.  Not only does this reduce any unnecessary navigation, it also helps the learner make sense of the structure and the relationship between content. Navigation becomes meaningful, rather than a by-product of the template size.",
+      "audioSrc": "course/en/audio/tab3",
+      "audioTypes": [
+        {
+          "type": "mp3",
+          "codec": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "alt": "‘Everything above the fold’ might be old hat but...",
+      "title": "‘Everything above the fold’ might be old hat but...",
+      "body": "...The principle remains. Due to the variety of devices used to access web content you’ll only be able to guarantee the first 400 or 500 pixels of a page will be visible, so there’s no harm in putting the important stuff first and hooking your learners early. In fact, we advocate this as good practice, regardless of what page layouts are being used.",
+      "audioSrc": "course/en/audio/tab4",
+      "audioTypes": [
+        {
+          "type": "mp3",
+          "codec": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "alt": "More flexibility",
+      "title": "More flexibility",
+      "body": "Scrolling pages still allow you to present content via interactive elements (we call them components instead of templates), but with a scrolling page there is far more flexibility in how these elements are presented. Layouts can now vary in size and the density of content, which in turn creates more space for branding to be incorporated. Or indeed some precious white space to give the content space to breathe.  Overruns are also a thing of the past meaning localisation of content becomes a simpler proposition as well.",
+      "audioSrc": "course/en/audio/tab5",
+      "audioTypes": [
+        {
+          "type": "mp3",
+          "codec": "audio/mpeg"
+        }
+      ]
+    },
+    {
+      "alt": "Don’t throw the baby out with the bath water",
+      "title": "Don’t throw the baby out with the bath water",
+      "body": "None of the above means we stop following instructional design best practice.  We continue to put the learner at the heart of what we produce, writing well-structured which follows an appropriate learning model. It’s more about looking around at what is going on within the wider web community and taking note of changes in best practice and the nature of how content, is being accessed.",
+      "audioSrc": "course/en/audio/tab6",
+      "audioTypes": [
+        {
+          "type": "mp3",
+          "codec": "audio/mpeg"
+        }
+      ]
+    }
+  ],
+  "_pageLevelProgress": {
+    "_isEnabled": true
+  }
+}

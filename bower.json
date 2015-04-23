@@ -1,0 +1,18 @@
+{
+  "name": "adapt-accordionWithAudio",
+  "version": "1.0.0",
+  "homepage": "https://github.com/BATraining/adapt-accordionWithAudio",
+  "authors": [
+    "Kevin Corry <kevinc@learningpool.com>",
+    "Shahfaisal Patel <shahfaisal.patel@exultcorp.com>"
+  ],
+  "description": "An accordion component that displays clickable titles, which reveal display text and play audio",
+  "main": "/js/adapt-accordionWithAudio.js",
+  "displayName" : "Accordion with Audio",
+  "component" : "accordionWithAudio",
+  "keywords": [
+    "adapt-plugin",
+    "adapt-component"
+  ],
+  "license": "GPLv3"
+}

@@ -9,18 +9,20 @@
                     <div class="accordionWithAudio-item-title-icon icon icon-plus h5"></div>
                     {{{title}}}
                 </div>
-
             </a>
 
+            {{#if audioSrc}}
             <a href="#" class="accordionWithAudio-audio">
                 <div class="accordionWithAudio-sound component-item-text-color icon"></div>
             </a>
+            {{/if}}
 
             <div class="accordionWithAudio-item-body">
                 <div class="accordionWithAudio-item-body-inner">
                     {{{a11y_text body}}}
                 </div>
             </div>
+
             {{#if audioSrc}}
             <div class="accordionWithAudio-item-audio">
                 <audio preload="none">
